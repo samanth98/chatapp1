@@ -6,13 +6,23 @@
     "socket.io": "^4.4.1"
   },
   "name": "new-chatapp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Small Chatting app",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samanth98/chatapp1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samanth98/chatapp1/issues"
+  },
+  "homepage": "https://github.com/samanth98/chatapp1#readme",
+  "devDependencies": {}
 }
